@@ -1,9 +1,10 @@
 import './App.css';
+import AddProductForm from './components/AddProductForm';
 
 function App() {
   return (
     <div className="App">
-      <h1>Aplikacja</h1>
+      <AddProductForm />
     </div>
   );
 }
